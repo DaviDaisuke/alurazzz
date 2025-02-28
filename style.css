@@ -1,0 +1,99 @@
+@import url(varia.css);
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background-color: white;
+}
+
+main{
+    margin: auto;
+    width: 1200px;
+    background-color: var(--cor-4);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container main{
+    flex: 1;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    padding-right: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+header{
+    margin: 0px;
+    display: flex;
+    background-color: var(--cor-1);
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu{
+    margin-left: 10px;
+}
+
+.menu li a{
+    background-color:var(--cor-2);
+    display: block;
+    padding: 5px;
+    margin: 6px;
+    margin-left: 20px;
+  }
+
+h1,h2,h3,p,a{
+    text-align: justify;
+    /*font-family: "Dancing Script", serif;*/
+
+}
+
+h1{
+    text-align: center;
+}
+
+P{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.corzinha{
+    display: flex;
+    margin: 0px;
+    background-color:var(--cor-2);
+    margin: auto;
+    border: 0px;
+    justify-content: center;
+}
+
+.centro{
+    justify-items: center;
+}
+
+footer{
+    background-color:var(--cor-1);
+    padding: 10px;
+    align-items: flex-start;  
+}
